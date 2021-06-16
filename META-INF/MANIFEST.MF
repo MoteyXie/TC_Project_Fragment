@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fragment
+Bundle-SymbolicName: com.teamcenter.rac.project.fragment;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: TEAMCENTER
+Fragment-Host: com.teamcenter.rac.project;bundle-version="12000.4.0"
+Automatic-Module-Name: com.teamcenter.rac.project.fragment
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: lib/javassist.jar,
+ .,
+ lib/swing2swt.jar
+Export-Package: com.teamcenter.rac.project.fragment.handlers
